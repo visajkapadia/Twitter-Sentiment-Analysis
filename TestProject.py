@@ -1,7 +1,7 @@
 from tweepy import OAuthHandler
+from textblob import TextBlob
 import tweepy
 import urllib3
-from textblob import TextBlob
 
 urllib3.disable_warnings()
 
