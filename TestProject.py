@@ -73,10 +73,10 @@ class Twitter:
         return (100 * self.number_of_neutral_tweets) / self.number_of_tweets
 
 
-consumerkey = 'pNMFPNf9yqE76yzBvdYECTaSq'
-consumersecret = 'v0ro0PvgUrnb0EIURfzYUzOUIQM0CZ8AxLIRvwvk3qi0ZA4phR'
-accesstoken = '745489249315651584-JqS6FVMrytYYHfFVunHSk9dVJOveagN'
-accesssecret = 'gC7yfHTGwXo1DkM0p3o2n56No8tdCxm7hpoNm1nUNljvC'
+consumerkey = ''
+consumersecret = ''
+accesstoken = ''
+accesssecret = ''
 
 twitter = Twitter(consumerkey, consumersecret, accesstoken, accesssecret)
 twitter.authenticate()
