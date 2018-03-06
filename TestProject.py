@@ -3,6 +3,7 @@ from textblob import TextBlob
 import tweepy
 import urllib3
 
+#required for lower versions of python
 urllib3.disable_warnings()
 
 
